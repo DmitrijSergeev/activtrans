@@ -1,13 +1,12 @@
 import './App.css'
+import {Routing} from "@/common/routing/Routing.tsx";
 
 function App() {
 
     return (
-        <>
-            <h1 className={'text-3xl font-bold underline'}>
-                АктивТрансТур
-            </h1>
-        </>
+        <div>
+            <Routing/>
+        </div>
     )
 }
 
