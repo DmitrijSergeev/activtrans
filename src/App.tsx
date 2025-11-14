@@ -1,11 +1,16 @@
 import './App.css'
-import {Routing} from "@/common/routing/Routing.tsx";
+
+import {Header} from "@/components/main/header";
+import {Routing} from "@/common/routing";
 
 function App() {
 
     return (
         <div>
             <Routing/>
+            <div>
+                <Header/>
+            </div>
         </div>
     )
 }
